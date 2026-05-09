@@ -1,13 +1,13 @@
 {% set name = "myerson" %}
-{% set version = "0.1.8" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/myerson-{{ version }}.tar.gz
-  sha256: 5f1b31534132a6e2794d73a6e43c8cefd08cc56f55066776c4ba54a8256ec508
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/myerson-{{ version }}.tar.gz
+  sha256: 24df8a85d16b3810828896f56ae08fc91c80d91fa3efd5e468efc5b4e3483939
 
 build:
   noarch: python
